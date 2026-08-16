@@ -1,0 +1,101 @@
+# ==========================================
+# 1. Entorno de Visual Studio (IDE)
+# ==========================================
+# Archivos de caché local, datos de navegación e historial
+.vs/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.db
+*.opendb
+
+# ==========================================
+# 2. Entorno de Visual Studio Code (IDE)
+# ==========================================
+# Ignora configuraciones de estado local, pero conserva la configuración compartida
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==========================================
+# 3. Compilación de C++ y Ejecutables
+# ==========================================
+# Ejecutables
+*.exe
+*.out
+*.app
+*.bin
+
+# Objetos e intermedios de compilación
+*.o
+*.obj
+*.i
+*.s
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+
+# Librerías estáticas y dinámicas
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# Directores de salida de build
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Dd]ist/
+
+# ==========================================
+# 4. Generadores de Build (CMake / MSBuild)
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# ==========================================
+# 5. Pruebas y Cobertura (Test Results & Coverage)
+# ==========================================
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.gcov
+*.gcda
+*.gcno
+
+# ==========================================
+# 6. Archivos Temporales, Logs y Sistema Operativo
+# ==========================================
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+*.bak
+*.ipch
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux
+.DS_Store
+*~
